@@ -10,6 +10,7 @@ body {
 
 .jumbotron {
     background-color: #FFF;
+   background: rgba(255, 255, 255, 0.7); 
 }
 
 .starter-template {
@@ -20,8 +21,9 @@ body {
 .carousel-control.left,
 .carousel-control.right {
     background-image: none;
-    background-color: #031866;
+    color: black;
 }
+
 
 h2 {
     margin: 0;
@@ -43,16 +45,17 @@ h2 {
 
 .container {
     text-align: center;
-    opacity: 0.95;
+   
 }
 
 p {
     font-size: 10px;
-    font-family: 'Poiret One', sans-serif;
+    font-family: 'Abel', sans-serif;
 }
 
 li {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+
 }
 
 .header.clearfix {
@@ -61,6 +64,7 @@ li {
 
 .nav-pills a {
     color: #031866;
+
 }
 
 
@@ -69,4 +73,9 @@ li {
 .nav-pills > li.active > a:focus {
     color: white;
     background-color: #031866;
+
+}
+
+.thumbnail{
+    border-color: #031866;
 }
