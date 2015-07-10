@@ -8,6 +8,14 @@ body {
     background-size: 100%;
 }
 
+h3 small {
+    color: #DDD;
+}
+
+iframe {
+    margin-top: 10px;
+}
+
 h2 {
     margin: 0;
     color: #031866;
@@ -15,20 +23,29 @@ h2 {
     font-family: 'Lobster', sans-serif;
 }
 
+h3 {
+    margin: 0;
+    color: #031866;
+    font-size: 64px;
+    font-family: 'Lobster', sans-serif;
+}
+
 p {
     font-family: 'Abel', sans-serif;
-    text-align:center;
+    text-align: center;
     font-size: 8px;
-    line-height:.4em;
-
+    line-height: .4em;
 }
 
 li {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 16px;
-    font-weight: bold;
+    text-align: left;
 }
 
+.page-header {
+    margin-bottom: 35px;
+}
 
 .header.clearfix {
     margin-bottom: 0px;
@@ -43,19 +60,79 @@ li {
 .nav-pills > li.active > a:focus {
     color: white;
     background-color: #031866;
+
+}
+.nav-pills > li {
+    font-family: 'Abel', sans-serif;
+    text-align: left;
+    font-size: 20px;
+
 }
 
-.thumbnail{
+.thumbnail {
     border-color: #031866;
-    margin-bottom: 5px;
 }
 
-.table th {
+.container {
     text-align: center;
 }
 
-.table{
+.jumbotron {
+    background-color: #FFF;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.jumbotron.footer {
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+/* Home page */
+
+.slogan {
+    margin: 0;
+    color: black;
+    font-size: 28px;
+    font-family: 'Poiret One', sans-serif;
+    font-weight: bold;
+}
+.sloganv {
+    margin: 0;
+    color: black;
+    font-size: 28px;
+    font-family: 'Times New Roman', sans-serif;
+}
+/* Pacific wide logo */
+
+#logo {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
+}
+/*Carousel stuff */
+
+#activep {
     font-family: 'Abel', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+#soldp {
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+    color: black;
 }
 
 .item {
@@ -68,24 +145,32 @@ li {
     font-style: none;
     font-size: 16px;
 }
+/* Table stuff */
 
-.container {
+.table th {
     text-align: center;
-   
 }
 
-.jumbotron {
-   background-color: #FFF;
-   background: rgba(255, 255, 255, 0.7); 
+.table {
+    font-family: 'Abel', sans-serif;
 }
+/* About me stuff */
 
-.starter-template {
-    padding: 40px 15px;
+.aboutme.header {
+    font-size: 40px;
     text-align: left;
+    font-family: 'Times New Roman', sans-serif;
 }
 
-.carousel-control.left,
-.carousel-control.right {
-    background-image: none;
-    color: black;
+.aboutme {
+    text-align: left;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
 }
+
+.aboutmev{
+       text-align: left;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
