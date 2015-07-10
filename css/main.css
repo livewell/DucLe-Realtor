@@ -69,8 +69,9 @@ li {
 
 }
 
-.thumbnail {
+.thumbnail.profile {
     border-color: #031866;
+    margin-top: 30px;
 }
 
 .container {
@@ -98,16 +99,14 @@ li {
 .sloganv {
     margin: 0;
     color: black;
-    font-size: 28px;
+    font-size: 24px;
     font-family: 'Times New Roman', sans-serif;
 }
 /* Pacific wide logo */
 
 #logo {
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-    width: 125px;
+    width: 150px;
+    height: 300px;
 }
 /*Carousel stuff */
 
@@ -138,6 +137,7 @@ li {
 .item {
     text-align: center;
     height: 425px !important;
+    color:black;
 }
 
 .item p {
@@ -149,6 +149,8 @@ li {
 
 .table th {
     text-align: center;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .table {
